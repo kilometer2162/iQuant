@@ -1,3 +1,4 @@
+# iQuant
 python实现的量化交易框架(货币交易所)
 
 1、config文件夹下配置参数
