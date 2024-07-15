@@ -1,0 +1,21 @@
+{
+  "okex": {
+    "ceshi09": {
+      "public_key": "aaa",
+      "private_key": "BBB",
+      "phrase": "Xdfasg",
+      "instrument": {
+        "ETH-USDT-QUARTER": [
+          "1m"
+        ]
+      },
+      "default_cycle": "1m",
+      "zmq": {
+        "port": "6666",
+        "client": [
+          "6667"
+        ]
+      }
+    }
+  }
+}

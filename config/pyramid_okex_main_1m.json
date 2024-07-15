@@ -1,0 +1,23 @@
+{
+  "exchange": "okex",
+  "strategy": "pyramid",
+  "account": "main",
+  "parameter": {
+    "cycle": "1m",
+    "instrument": {
+      "SUSHI-USDT": {
+        "low_price":  5,
+        "high_price": 35,
+        "step": 50,
+        "ratio": 0.03,
+        "second": 300,
+        "volume": 0.1,
+        "fee": 0.0006
+      }
+    }
+  },
+  "zmq": {
+    "command_port": "6662",
+    "recv_port": "5551"
+  }
+}

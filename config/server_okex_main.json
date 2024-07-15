@@ -1,0 +1,34 @@
+{
+  "okex": {
+    "main": {
+      "public_key": "aaa",
+      "private_key": "BBB",
+      "phrase": "Xfgw",
+      "instrument": {
+        "ETH-USDT": [
+          "1m"
+        ],
+        "1INCH-USDT": [
+          "1m"
+        ],
+        "OKB-USDT": [
+          "1m"
+        ],
+        "SHIB-USDT": [
+          "1m"
+        ],
+        "SUSHI-USDT": [
+          "1m"
+        ]
+      },
+      "default_cycle": "5m",
+      "zmq": {
+        "port": "5551",
+        "client": [
+          "5552",
+          "6662"
+        ]
+      }
+    }
+  }
+}

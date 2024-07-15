@@ -1,0 +1,32 @@
+{
+  "exchange": "okex",
+  "strategy": "accumulate",
+  "account": "main",
+  "parameter": {
+    "cycle": "1m",
+    "instrument": {
+      "ETH-USDT": {
+        "size": 0.01,
+        "stop_pnl_ratio": -0.008,
+        "max_size": 0.5,
+        "fee": 0.0008
+      },
+      "SUSHI-USDT": {
+        "size": 0.1,
+        "stop_pnl_ratio": -0.008,
+        "max_size": 5,
+        "fee": 0.0006
+      },
+      "ADA-USDT": {
+        "size": 1,
+        "stop_pnl_ratio": -0.008,
+        "max_size": 100,
+        "fee": 0.0006
+      }
+    }
+  },
+  "zmq": {
+    "command_port": "5552",
+    "recv_port": "5551"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "exchange": "okex",
+  "strategy": "bolling",
+  "account": "realtrade1",
+  "parameter": {
+    "cycle": "15m",
+    "short_open": false,
+    "total_cash": 400,
+    "change_cash": 0,
+    "instrument": {
+      "ETH-USDT-QUARTER": {
+        "n": 440,
+        "m": 3.1,
+        "bias_pct": 0.09,
+        "fee": 0.0005,
+        "size": 1
+      }
+    }
+  },
+  "zmq": {
+    "command_port": "6665",
+    "recv_port": "6664"
+  }
+}
